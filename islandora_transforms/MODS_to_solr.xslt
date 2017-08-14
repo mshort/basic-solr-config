@@ -981,7 +981,7 @@
                 <xsl:attribute name="name">
                     <xsl:value-of select="concat($prefix, 'subject_topic', $suffix)"/>
                 </xsl:attribute>
-                <xsl:value-of select="text()"/>s
+                <xsl:value-of select="text()"/>
             </field>
             <xsl:if test="../@authority">
                 <field>
